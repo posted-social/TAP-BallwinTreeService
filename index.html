@@ -428,7 +428,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 6px;
+            gap: 0;
             text-decoration: none;
             animation: fadeUp 0.6s ease 0.48s both;
         }
@@ -441,6 +441,10 @@
             width: 20px;
             height: 20px;
             object-fit: contain;
+            opacity: 0;
+            transform: rotateY(-90deg);
+            transform-origin: left center;
+            margin-left: 4px;
         }
 
         .footer-text {
@@ -615,8 +619,7 @@
 
         <!-- Footer -->
         <a href="https://posted-social.com" target="_blank" rel="noopener" class="tap-footer">
-            <img src="https://assets.cdn.filesafe.space/HWLkcDtPFyefiPQ26HGp/media/68d1654ecc2a7974dd9cd68b.png" alt="Posted Social" class="footer-logo">
-            <span class="footer-text">We'll Keep You <span class="posted">Posted</span></span>
+            <span class="footer-text">We'll Keep You <span class="posted">Posted</span></span><img src="https://assets.cdn.filesafe.space/HWLkcDtPFyefiPQ26HGp/media/68d1654ecc2a7974dd9cd68b.png" alt="Posted Social" class="footer-logo">
         </a>
 
     </div>
